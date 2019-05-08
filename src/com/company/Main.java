@@ -11,6 +11,6 @@ public class Main {
 
 
     public static void main(String[] args) {
-
+        Range(x -> 4*x*x+3*x+5);
     }
 }
