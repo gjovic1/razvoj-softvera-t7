@@ -3,7 +3,7 @@ package com.company;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Sortiranje {
+public class DrugiZadatak {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         System.out.println("Koliko želite unijeti brojeva ?");
@@ -15,7 +15,9 @@ public class Sortiranje {
             arr[i]  = s.nextInt();
         }
 
-        System.out.println(Arrays.toString(arr));
+        Arrays.sort(arr);
+        for(int x : arr)
+            System.out.println(x+" ");
 
         
     }

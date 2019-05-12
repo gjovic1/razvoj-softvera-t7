@@ -2,7 +2,7 @@ package com.company;
 
 import java.util.function.Function;
 
-public class Main {
+public class PrviZadatak {
 
     public static void Range(Function<Double, Double> f) {
         for(double i = 0; i<=100; i++)
